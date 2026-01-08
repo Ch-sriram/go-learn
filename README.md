@@ -23,3 +23,19 @@
 | `go install` | Compiles and "installs" a package.                          |
 | `go get`     | Downloads the raw source code of someone else's package.    |
 | `go test`    | Runs any tests associated with the current project.         |
+
+### Useful Commands
+
+1. `go run <file.go>`:
+
+   ```sh
+   go run main.go
+   ```
+
+2. `go build <file.go>`:
+
+   ```sh
+   go build main.go
+   ```
+
+   > Generates a `main` executable file which can be run as: `./main`s
